@@ -66,12 +66,3 @@ const PostListProvider = ({ children }) => {
 };
 
 export default PostListProvider;
-
-// const transformedPosts = data.posts.map(post => ({
-//   id: post.id,
-//   title: post.title,
-//   body: post.body,
-//   reactions: post.reactions.likes, // Extract only likes
-//   userId: post.userId,
-//   tags: post.tags
-// })));
