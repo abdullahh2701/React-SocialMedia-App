@@ -92,7 +92,7 @@ export async function createPostAction(data) {
   })
     .then((res) => res.json())
     .then((post) => {
-      addPost(post);
+      console.log(post);
     });
 
   return redirect("/");
